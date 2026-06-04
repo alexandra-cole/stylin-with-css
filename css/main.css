@@ -1,4 +1,4 @@
-//* By Alexandra Cole *//
+/* By Alexandra Cole */
 
 @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
 
@@ -15,6 +15,19 @@ body {
    padding:1%;
 }
 
+header {
+    text-align: center;
+}
+
+h1.page-header {
+    font-family: 'Inknut Antiqua', serif;
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    color: #4a3328;
+    text-shadow: 3px 3px 3px #d7c3b4;
+}
+
 footer {
    clear:both;
    text-align:center;
@@ -25,11 +38,9 @@ nav{
    text-align:center; /* centers the nav */
 }
 
-
 nav a{
    color:#000; /* font color is black */
 }
-
 
 nav ul {
    list-style:none; /* removes the bullets */
